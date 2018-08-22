@@ -1,0 +1,20 @@
+{
+    "name": "mp4-box-viewer",
+    "version": "0.0.1",
+    "author": {
+        "name": "Joy Zhang",
+        "email": "twoleft.zhang@outlook.com"
+    },
+    "license": "MIT",
+    "scripts": {
+        "start": "node_modules/.bin/electron app/main.js"
+    },
+    "dependencies": {
+        "jquery": "3.3.1",
+        "bootstrap": "3.3.7",
+        "fuelux": "3.17.0"
+    },
+    "devDependencies": {
+        "electron": "2.0.7"
+    }
+}
