@@ -51,7 +51,7 @@ async function parseBox(fd, position) {
 
     box.next = position + box.size;
     if (isContainerBox(box.type)) {
-        box.children = await parseChildren(fd, content, box.size);
+        box.children = await parseChildren(fd, content, box.next);
     } else {
         box.children = [];
     }

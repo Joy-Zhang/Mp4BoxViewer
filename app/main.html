@@ -4,6 +4,8 @@
     <title>MP4结构浏览器</title>
     <script>
         window.nodeRequire = require;
+        window.electron = nodeRequire('electron');
+        window.remoteRequire = electron.remote.require;
         delete window.require;
         delete window.exports;
         delete window.module;
@@ -64,8 +66,7 @@
     </div>
     <script>
 
-        var parser = nodeRequire('./mp4/parser');
-        var electron = nodeRequire('electron');
+        var parser = remoteRequire('./mp4/parser');
         var dialog = electron.remote.dialog;
 
         function box2node(box) {

@@ -6,8 +6,9 @@
         "email": "twoleft.zhang@outlook.com"
     },
     "license": "MIT",
+    "main": "app/main.js",
     "scripts": {
-        "start": "node_modules/.bin/electron app/main.js"
+        "start": "node_modules/.bin/electron ."
     },
     "dependencies": {
         "jquery": "3.3.1",
