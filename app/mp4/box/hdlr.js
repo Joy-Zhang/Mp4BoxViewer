@@ -14,6 +14,6 @@ module.exports = async function (fd, box) {
 
     box.version = buffer.readUInt8(8);
 
-    box.componentType = buffer.toString('utf-8', 16, 20);
-    box.componentSubtype = buffer.toString('utf-8', 20, 24);
+    box.handlerType = buffer.toString('utf-8', 16, 20);
+    box.name = buffer.toString('utf-8', 32, box.size - 1)
 }
