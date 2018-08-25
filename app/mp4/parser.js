@@ -19,7 +19,13 @@ const containerBoxTypes = [
     'moof',
     'traf',
     'mfra',
-    'skip'
+    'skip',
+    'meta',
+    'ipro',
+    'sinf',
+    'fiin',
+    'paen',
+    'meco'
 ];
 
 function isContainerBox(type) {
