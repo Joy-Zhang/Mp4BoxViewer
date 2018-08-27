@@ -1,0 +1,10 @@
+<table class="table">
+    <tbody>
+        <tr><td>创建时间</td><td>${ct}</td></tr>
+        <tr><td>修改时间</td><td>${mt}</td></tr>
+        <tr><td>时长刻度</td><td>${ts}</td></tr>
+        <tr><td>时长（秒/刻度）</td><td>${d}/${dts}</td></tr>
+        <tr><td>播放速度</td><td>${r}</td></tr>
+        <tr><td>音量</td><td>${v}</td></tr>
+    </tbody>
+</table>

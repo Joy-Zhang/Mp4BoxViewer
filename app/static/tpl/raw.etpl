@@ -1,0 +1,1 @@
+<textarea id="txt-box-content" readonly rows="20" class="form-control">${raw}</textarea>

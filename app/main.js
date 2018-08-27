@@ -11,5 +11,5 @@ let browser;
 
 app.on('ready', () => {
     browser = new BrowserWindow();
-    browser.loadFile(path.join(__dirname, 'main.html'));
+    browser.loadFile(path.join(__dirname, 'index.html'));
 });
