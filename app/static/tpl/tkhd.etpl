@@ -1,0 +1,11 @@
+<table class="table">
+    <tbody>
+        <tr><td>创建时间</td><td>${ct}</td></tr>
+        <tr><td>修改时间</td><td>${mt}</td></tr>
+        <tr><td>轨道ID</td><td>${tid}</td></tr>
+        <tr><td>时长（刻度）</td><td>${dts}</td></tr>
+        <tr><td>音量</td><td>${v}</td></tr>
+        <tr><td>宽</td><td>${w}</td></tr>
+        <tr><td>高</td><td>${h}</td></tr>
+    </tbody>
+</table>
